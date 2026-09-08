@@ -18,12 +18,3 @@ numbers.Insert(2, number3);
 numbers.Sort();
 
 Console.WriteLine($"{numbers[0]} är minst");
-
-// Exempel på hur en funktion är uppbyggd:
-//
-// returtyp Namn(parametertyp parameternamn)
-// {
-//     // kod som gör något
-//     return värde; // om returtyp inte är void
-// }
-
