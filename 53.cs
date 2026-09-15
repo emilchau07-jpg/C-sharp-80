@@ -3,6 +3,7 @@
 static void Uppgift()
 {
     double summa = 0;
+    double medelvärde = 0;
     for (int i = 0; i < 10; i++)
     {
         Console.WriteLine("Ange ett korrekt tal: ");
@@ -16,6 +17,8 @@ static void Uppgift()
             Console.WriteLine("Ange ett korrekt tal! (Mellan 5000 och 10000)");
         }
     }
-    Console.WriteLine($"Summan av talen är {summa}");
+    medelvärde = summa / 10;
+    Console.WriteLine($"Summan av talen är: {summa}");
+    Console.WriteLine($"Medelvärdet är: {medelvärde}");
 }
 Uppgift();
