@@ -4,7 +4,7 @@ static void Uppgift()
 {
     int negativatal = 0;
     int positivatal = 0;
-    for (int i = 0; i < 10; i++)
+    for (int i = 0; i < 100; i++)
     {
         Console.WriteLine("Ange ett heltal: ");
         int tal = int.Parse(Console.ReadLine());
